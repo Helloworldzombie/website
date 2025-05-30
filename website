@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Click Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background: #f9f9f9;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    #content {
+      font-size: 24px;
+      margin-top: 30px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Website</h1>
+  <div id="content">Click the button to see new text.</div>
+  <button onclick="changeText()">Click Me!</button>
+
+  <script>
+    function changeText() {
+      document.getElementById('content').innerText = "installing viruses.";
+    }
+  </script>
+
+</body>
+</html>
